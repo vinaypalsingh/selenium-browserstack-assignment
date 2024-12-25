@@ -1,0 +1,41 @@
+userName: vinaypalsingh_5ipwgd
+accessKey: 4yb9iyZKas93jbVaCpTz
+platforms:
+  - browserName: Chrome
+    os: Windows
+    osVersion: 10
+    browserVersion: 120.0
+    realMobile: false
+    resolution: 1920x1080
+  - browserName: Firefox
+    os: Windows
+    osVersion: 10
+    browserVersion: latest
+    realMobile: false
+    resolution: 1920x1080
+  - browserName: Safari
+    os: macOS
+    osVersion: 10.15
+    browserVersion: latest
+    realMobile: false
+    resolution: 1920x1080
+  - browserName: iPhone
+    os: iOS
+    osVersion: 14
+    device: iPhone 12
+    realMobile: true
+    resolution: 1125x2436
+    browserVersion: latest
+  - browserName: Android
+    os: Android
+    osVersion: 10
+    device: Google Pixel 4
+    realMobile: true
+    resolution: 1080x2340
+    browserVersion: latest
+buildIdentifier: ${BUILD_NUMBER}
+consoleLogs: info
+seleniumVersion: 4.27.0
+projectName: BrowserStackIntegrationTests
+buildName: v1.0.0
+parallelsPerPlatform: 5

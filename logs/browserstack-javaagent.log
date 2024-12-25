@@ -1,0 +1,161 @@
+17:14:36.917 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+17:14:36.919 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:14:37.046 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:14:37.046 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:14:37.499 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+17:14:39.913 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:14:40.430 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:14:41.978 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:14:41.979 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:14:41.994 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:14:41.995 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:14:42.001 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:14:42.002 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:14:44.336 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:14:44.336 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:14:44.337 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:14:44.382 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:14:44.382 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:14:44.382 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:15:08.540 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.WebDriverException: Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2636fc1a514f84dada38844f3668e15a65e98fe9, clickElement {id=node-50F0423E-918E-4D5D-A16F-0786231F852F}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-aps.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Element: [[ChromeDriver: Safari on mac (2636fc1a514f84dada38844f3668e15a65e98fe9)] -> link text: Opinión]
+Session ID: 2636fc1a514f84dada38844f3668e15a65e98fe9
+17:15:16.702 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Opinión (tried for 10 second(s) with 500 milliseconds interval)
+17:15:17.293 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Opinión (tried for 10 second(s) with 500 milliseconds interval)
+17:15:22.274 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/032b8186517626fe1cb00cfbdf56b0920ddf1c94
+17:15:22.274 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:29:32.082 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+17:29:32.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:29:32.199 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:29:32.200 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:29:32.673 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+17:29:35.082 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:29:35.629 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:29:37.042 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:29:37.043 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:29:39.374 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:29:39.417 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:30:20.991 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/de7e1b93aa9e78de1efff7cac5f95bcc08d0818e
+17:30:20.992 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:36:53.979 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+17:36:53.980 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:36:54.101 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:36:54.102 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:36:54.567 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+17:36:58.141 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:36:58.691 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:37:00.098 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:37:00.099 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:37:02.443 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:37:02.471 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:37:36.426 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/4af687acd4077662d59225484d0feb605e0c9c3e
+17:37:36.427 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:39:22.012 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+17:39:22.013 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:39:22.125 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:39:22.126 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:39:22.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+17:39:24.990 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:39:25.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:39:26.958 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:39:26.959 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:39:29.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:39:29.278 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:40:27.267 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5dd191820230e8a2aa135684ff09d6aa527178b1
+17:40:27.267 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:57:11.035 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+17:57:11.036 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:57:11.151 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:57:11.152 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:57:11.625 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+17:57:14.044 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:57:14.545 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:57:15.907 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:57:15.908 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+17:57:18.225 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:57:18.270 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+17:57:58.189 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/cdde6e67368173a107b2337f7e8ca527219cf23d
+17:57:58.190 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:01:27.760 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+18:01:27.761 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:01:27.868 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:01:27.869 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:01:28.483 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+18:01:30.714 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:01:31.268 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:01:32.753 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:01:32.754 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:01:35.088 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:01:35.131 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:02:11.858 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/23ba6d06f8bec7ffb6e34e4efe4a669f15f86c61
+18:02:11.860 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:11:20.711 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+18:11:20.712 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:11:20.831 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:11:20.831 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:11:21.243 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+18:11:23.597 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:11:24.125 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:11:25.618 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:11:25.620 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:11:27.915 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:11:27.957 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:12:09.875 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b1f0c64d66e7bc38e6a07012350326de31a08393
+18:12:09.877 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:16:05.116 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+18:16:05.117 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:16:05.221 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:16:05.222 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:16:05.636 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+18:16:08.015 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:16:08.460 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:16:09.868 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:16:09.869 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:16:12.262 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:16:12.304 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:16:53.670 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/26f52fcb321fa2a63bd70c64774818df2dcffb31
+18:16:53.671 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:21:48.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.26.0
+18:21:48.819 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:21:48.932 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:48.932 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:49.157 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+18:21:51.450 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:52.827 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:54.721 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:54.724 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:54.784 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:54.785 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:54.845 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:54.847 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:54.854 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:54.855 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:54.865 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:21:54.867 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/neelamsaraswat/IdeaProjects/SeleniumTestProject/browserstack.yml
+18:21:57.295 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:57.333 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:57.351 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:57.376 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:57.407 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:57.438 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:57.445 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:57.477 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:21:57.487 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:57.535 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+18:21:59.859 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Neelams-MacBook-Air.local', ip: 'fe80:0:0:0:415:6960:e3ac:6d4a%en0'
+18:22:13.997 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.UnsupportedCommandException: unsupported operation: Unable to maximize window on Android platform
+  (Session info: chrome=128.0.6613.146)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67ad15984966292c8bb128e98d139e2d9bbedab2, maximizeCurrentWindow {}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18082, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18082, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://194.1..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8202, timeouts: {implicit: 0}, udid: 98311FFAZ0069V}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Pixel 4, deviceName: 98311FFAZ0069V, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: 98311FFAZ0069V, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://194.1..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-euw.browserstack.com, pixelRatio: 2.75, platform: LINUX, platformName: ANDROID, platformVersion: 10, skipServerInstallation: true, statBarHeight: 83, systemPort: 8202, takesScreenshot: true, timeouts: {implicit: 0}, udid: 98311FFAZ0069V, viewportRect: {height: 2153, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 67ad15984966292c8bb128e98d139e2d9bbedab2
+18:22:27.793 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Opinión (tried for 10 second(s) with 500 milliseconds interval)
+18:22:43.529 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/59f43d6e800a13ab3b7e69b6e2193786ced09084
+18:22:43.530 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
